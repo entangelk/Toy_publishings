@@ -1,0 +1,58 @@
+.maincont {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front {
+    text-align: center;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+
+.contname {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.namee {
+    border: 2px solid gray;
+    width: 10%;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: 40% 30% 20%;
+}
+
+.cardselec {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.expiration {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+}
+
+.rightone {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.righttwo {
+    display: grid;
+}
+
+.righttwoone, .righttwotwo, .righttwothree, .righttwofour, .righttwofive{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+

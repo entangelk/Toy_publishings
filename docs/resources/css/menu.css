@@ -1,0 +1,52 @@
+nav {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+}
+
+.right {
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.right > div > a {
+    color: darkgray;
+    text-decoration: none;
+
+}
+
+.right:hover {
+    cursor: pointer;
+}
+
+.right > div > a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.left > a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.left:hover {
+    cursor: pointer;
+}
+
+.left > a:hover{
+    color: gray;
+    text-decoration: none;
+}

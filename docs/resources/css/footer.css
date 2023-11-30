@@ -1,0 +1,39 @@
+ul,
+li {
+    list-style: none;
+}
+
+
+footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footbox {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+}
+
+li:first-child
+{
+    color: lightgray;
+    font-size: x-large;
+}
+
+li:first-child:hover{
+    color: lightgray;
+    cursor:text;
+}
+
+
+ul>li>a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+li > a {
+    color: darkgray;
+    text-decoration: none;
+}

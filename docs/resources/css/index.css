@@ -1,0 +1,146 @@
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.maincont {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.charset {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.charset>div:first-child {
+    color: lightgray;
+    font-size: xx-large;
+}
+
+.charset>div {
+    color: gray;
+}
+
+.inbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.boxa {
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 20px;
+}
+
+.boxc {
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+}
+
+.box1title {
+    padding: 10% 25%;
+    border-radius: 20px 20px 0px 0px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    color: lightgray;
+    background-color: darkgrey;
+}
+
+.box1title2 {
+    padding: 10% 25%;
+    border-radius: 20px 20px 0px 0px;
+    border-color: blue;
+    border-style: solid;
+    color: white;
+    background-color: blue;
+}
+
+.box1title:first-child {
+    color: gray;
+    font-size: x-large;
+}
+
+.box1title2:first-child {
+    color: white;
+    font-size: x-large;
+}
+
+.button {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lightbutton {
+    width: 90%;
+    height: 30px;
+    border-color: skyblue;
+    color: skyblue;
+    background-color: transparent;
+}
+
+.lightbutton:hover {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.darkbutton {
+    width: 90%;
+    height: 30px;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+}
+
+.darkbutton:hover {
+    border-color: darkblue;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+.compare {
+    display: grid;
+
+}
+
+.compare > div:first-child {
+text-align: center;
+font-size: xx-large;
+color: lightgray;
+padding: 10px;
+}
+
+.gra {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 40% 20% 20% 20%;
+    justify-content: space-between;
+    border: solid gray;
+    border-width: 0px 0px 2px 0px;
+}
+
+.gra > div{
+    text-align: center;
+}
+
+.gra > div:first-child{
+    text-align: left;
+}
