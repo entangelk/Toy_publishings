@@ -1,174 +1,236 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing</title>
 
-    <!-- testlink -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Pricing example · Bootstrap v5.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="./resources/css/testbox.css"> -->
-    <link rel="stylesheet" href="./resources/css/menu.css">
-    <link rel="stylesheet" href="./resources/css/footer.css">
-    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/cards.css">
+
 </head>
 
 <body>
-    <nav>
-        <div class="menu">
-            <div class="left"><a href="./asap.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 118 94" role="img" style="user-select: auto !important;"><title style="user-select: auto !important;">Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor" style="user-select: auto !important;"></path></svg><span style="font-size: 35px;">Pricing example</span></a></div>
-            <div class="right" style="display: grid;">
-                <div><a href="./asap.html">Feature</a></div>
-                <div><a href="./support.html">Enterprise</a></div>
-                <div><a href="./asap.html">Support</a></div>
-                <div><a href="./asap.html">Pricing</a></div>
+
+    <div class="container">
+        <header>
+            <br>
+            <div class="row">
+                <a href="./asap.html" class="col-7 text-decoration-none">
+                    <span class="text-secondary display-6"><img class="" src="./resources/images/bootstrap-logo.svg"
+                            alt="" width="72" height="57">
+                        Pricing example</span>
+                </a>
+                <div class="row col">
+                    <div class="col text-end">&nbsp </div>
+                    <nav class="row text-end">
+                        <a class="col text-decoration-none text-secondary" href="./asap.html">Features</a>
+                        <a class="col text-decoration-none text-secondary" href="./asap.html">Enterprise</a>
+                        <a class="col text-decoration-none text-secondary" href="./support.html">Support</a>
+                        <a class="col text-decoration-none text-secondary" href="./pricing.html">Pricing</a>
+                    </nav>
+                    <div class="col">&nbsp </div>
+                </div>
             </div>
-        </div>
-        <hr>
-    </nav>
-    <main>
-        <div class="maincont">
-            <div class="charset">
-                <div>Pricing</div>
-                <div>Quickly build an effective pricing table for your potential customers with this Bootstrap example.
-                    It’s built with default Bootstrap components and utilities with little customization.</div>
+            <hr>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="row col-6 text-center">
+                        <h1 class="col-12">Pricing</h1>
+                        <div class="col-12">Quickly build an effective pricing table for your potential customers with
+                            this
+                            Bootstrap
+                            example. It’s built with default Bootstrap components and utilities with little
+                            customization.
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
             </div>
             <br>
-            <br>
-            <div class="inbox">
-                <div class="boxa">
-                    <div class="box1title">Free</div>
-                    <div>
-                        <div style="font-size: xx-large; color: gray;">$0<span style="color: darkgray;">/mo</span></div>
-                        <div>10 users included<br>
-                            2 GB of storage<br>
-                            Email support<br>
-                            Help center access</div>
-                        <div class="button">
-                            <form action="./asap.html" method="get">
-                                <button class="lightbutton">Sign up for free</button>
-                            </form>
+        </header>
+
+        <main>
+            <div class="row justify-content-around">
+                <div class="col">
+                    <div class="text-center">
+                        <div class="card">
+                            <div class="card">
+                                <h4 class="card-header bg-secondary">Free</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="">$0<small class="">/mo</small></h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <form action="./asap.html" method="get">
+                                    <button type="button" class="btn btn-outline-primary">Sign up for free</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="boxa">
-                    <div class="box1title">Pro</div>
-                    <div>
-                        <div style="font-size: xx-large; color: gray;">$15<span style="color: darkgray;">/mo</span></div>
-                        <div>10 users included<br>
-                            2 GB of storage<br>
-                            Email support<br>
-                            Help center access</div>
-                        <div class="button">
-                            <form action="./asap.html" method="get">
-                                <button class="darkbutton">Get started</button>
-                            </form>
+                <div class="col">
+                    <div class="text-center">
+                        <div class="card">
+                            <div class="card">
+                                <h4 class="card-header bg-secondary">Pro</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="">$15<small class="">/mo</small></h1>
+                                <ul class="list-unstyled">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <form action="./asap.html" method="get">
+                                    <button class="btn btn-primary">Get started</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="boxc">
-                    <div class="box1title2">Enterprise</div>
-                    <div>
-                        <div style="font-size: xx-large; color: gray;">$29<span style="color: darkgray;">/mo</span></div>
-                        <div>10 users included<br>
-                            2 GB of storage<br>
-                            Email support<br>
-                            Help center access</div>
-                        <div class="button">
-                            <form action="./asap.html" method="get">
-                                <button class="darkbutton">Contact us</button>
-                            </form>
+                <div class="col">
+                    <div class="text-center">
+                        <div class="card border-primary">
+                            <div class="card border-primary">
+                                <h4 class="card-header border-primary bg-primary">Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="">$29<small class="">/mo</small></h1>
+                                <ul class="list-unstyled">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <form action="./asap.html" method="get">
+                                    <button type="button" class="btn btn-primary">Contact us</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
+            <h2 class="text-center">Compare plans</h2>
+
+            <div class="">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Free</th>
+                            <th>Pro</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">Public</th>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Private</th>
+                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">Permissions</th>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Sharing</th>
+                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Unlimited members</th>
+                            <td></td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Extra security</th>
+                            <td></td>
+                            <td></td>
+                            <td>&#10004;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <br>
-            <div class="compare">
-                <div>Compare plans</div>
-                <div>
-                    <div class="gra">
-                        <div>&nbsp</div>
-                        <div>Free</div>
-                        <div>Pro</div>
-                        <div>Enterprise</div>
-                    </div>
-                    <div class="gra">
-                        <div>Public</div>
-                        <div>v</div>
-                        <div>v</div>
-                        <div>v</div>
-                    </div>
-                    <div class="gra">
-                        <div>Private</div>
-                        <div>&nbsp</div>
-                        <div>v</div>
-                        <div>v</div>
-                    </div>
-                    <div class="gra">
-                        <div>Permissions</div>
-                        <div>v</div>
-                        <div>v</div>
-                        <div>v</div>
-                    </div>
-                    <div class="gra">
-                        <div>Sharing</div>
-                        <div>&nbsp</div>
-                        <div>v</div>
-                        <div>v</div>
-                    </div>
-                    <div class="gra">
-                        <div>Unlimited members</div>
-                        <div>&nbsp</div>
-                        <div>v</div>
-                        <div>v</div>
-                    </div>
-                    <div class="gra">
-                        <div>Extra security</div>
-                        <div>&nbsp</div>
-                        <div>&nbsp</div>
-                        <div>v</div>
-                    </div>
+        </main>
+
+        <footer class="">
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <img class="" src="./resources/images/bootstrap-logo.svg" alt="" width="24" height="19">
+                    <small class=""><br>&copy; 2017–2023</small>
+                </div>
+                <div class="col text-center">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled">
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Cool stuff</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Random
+                                feature</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Team feature</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Stuff for
+                                developers</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Another one</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Last time</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col text-center">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Resource</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Resource name</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Another
+                                resource</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Final
+                                resource</a></li>
+                    </ul>
+                </div>
+                <div class="col text-center">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Team</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Locations</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Privacy</a></li>
+                        <li class=""><a class="text-decoration-none text-secondary" href="./asap.html">Terms</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <br>
-        <hr>
-    </main>
-    <footer>
-        <div class="footbox">
-            <div><div><img class="mb-2" src="./resources/images/bootstrap-logo.svg" alt="" width="24" height="19" style="user-select: auto !important;"></div>© 2017–2023</div>
-            <div>
-                <ul>
-                    <li>Features</li>
-                    <li><a href="./asap.html">Cool stuff</a></li>
-                    <li><a href="./asap.html">Random feature</a></li>
-                    <li><a href="./asap.html">Team feature</a></li>
-                    <li><a href="./asap.html">Stuff for developers</a></li>
-                    <li><a href="./asap.html">Another one</a></li>
-                    <li><a href="./asap.html">Last time</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>Resources</li>
-                    <li><a href="./asap.html">Resource</a></li>
-                    <li><a href="./asap.html">Resource name</a></li>
-                    <li><a href="./asap.html">Another resource</a></li>
-                    <li><a href="./asap.html">Final resource</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>About</li>
-                    <li><a href="./asap.html">Team</a></li>
-                    <li><a href="./asap.html">Locations</a></li>
-                    <li><a href="./asap.html">Privacy</a></li>
-                    <li><a href="./asap.html">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
